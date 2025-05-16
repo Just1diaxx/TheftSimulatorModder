@@ -2,7 +2,7 @@
 
 /**
  * Thief Simulator Save Editor
- * Copyright (c) 2023 [Il Tuo Nome]
+ * Copyright (c) 2023 [Just1diax]
  * Licensed under the MIT License
  */
 
@@ -62,9 +62,9 @@ class SaveEditor {
     }
 
     printHeader() {
-        console.log(chalk.green.bold(`\n${'='.repeat(100)}`));
-        console.log(chalk.green.bold(`${' '.repeat(40)}THIEF SIMULATOR MODDER`));
-        console.log(chalk.green.bold(`${'='.repeat(100)}\n`));
+        console.log(chalk.green.bold.bgBlack(`\n${'='.repeat(100)}`));
+        console.log(chalk.green.bold.bgGreen(`${' '.repeat(40)}THIEF SIMULATOR MODDER` + ' '.repeat(38)));
+        console.log(chalk.green.bold.bgBlack(`${'='.repeat(100)}\n`));
     }
 
     async checkBackupFolder() {
